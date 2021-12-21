@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto 30px auto;
+    border: 1px solid #5d5d5d5b;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form-img {
+    width: 100%;
+    height: 200px;
+}
+.form-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.form-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.7ch;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin-top: 0;
+    color: #5d5d5d;
+
+}
+
+.first-num, .second-num, .select{
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0.3ch;
+    background: white;
+    margin-top: 20px;
+    color: #5d5d5d;
+}
+.first-num>label {
+    margin-top: 0;
+}
+
+input, select {
+    box-sizing: border-box;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: #efefef;
+    color: #5d5d5d;
+    font-size: 14px;
+    padding: 10px 12px;
+    letter-spacing: 0.5ch;
+}
+.button-block {
+    display: flex;
+    justify-content: flex-start;
+}
+
+button {
+    display: block;
+    margin-top: 25px;
+    width: fit-content;
+    line-height: 37px;
+    border-radius: 10px;
+    border: none;
+    background-color: #efefef;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 30px;
+    color: #5d5d5d;
+    letter-spacing: 0.4ch;
+    padding: 0 20px;
+
+}
+.submit {
+   min-width: 150px;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.193);
+
+}
+.result {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #5d5d5d;
+    letter-spacing: 0.4ch;
+
+}
+span {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    min-width: 100px; 
+    max-width: fit-content; 
+    background-color: #efefef;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 0 10px;
+    border: none;
+    letter-spacing: 0.4ch;
+}
